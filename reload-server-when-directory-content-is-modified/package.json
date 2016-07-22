@@ -1,0 +1,14 @@
+{
+  "name": "example-reload-server-when-directory-content-is-modified",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "watch-http-server ./ -p 5555"
+  },
+  "dependencies": {
+    "watch-http-server": "^0.7.6"
+  }
+}
